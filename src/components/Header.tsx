@@ -49,6 +49,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <Button asChild>
             <Link
+              aria-label="Agendar Dra. Camila Cendon Consulta"
               href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`}
               target="_blank"
             >
@@ -61,6 +62,7 @@ export function Header() {
                 process.env.NEXT_PUBLIC_INSTAGRAM_LINK ||
                 "https://www.instagram.com/dracamilacendon.reumatologia/"
               }
+              aria-label="Dra. Camila Cendon Instagram"
               target="_blank"
             >
               <Instagram className="h-4 w-4" />
@@ -68,6 +70,7 @@ export function Header() {
           </Button>
           <Button variant="ghost" size="sm" asChild>
             <Link
+              aria-label="Dra. Camila Cendon WhatsApp"
               href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`}
               target="_blank"
             >
