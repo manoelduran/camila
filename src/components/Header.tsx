@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-[background]/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-[background]/95 backdrop-blur supports-[backdrop-filter]:bg-[background]/60">
       <div className="flex h-14 items-center justify-between px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48">
         <div className="flex items-center">
           <Link href="/">

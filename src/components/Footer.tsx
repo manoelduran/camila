@@ -53,13 +53,13 @@ export function Footer() {
                 Trajetória Profissional
               </Link>
               <Link href="#servicos" className="text-gray-400 hover:text-white">
-                Quando procurar reumatologia?
+                Atendimentos
               </Link>
               <Link
                 href="#atendimentos"
                 className="text-gray-400 hover:text-white"
               >
-                Atendimentos/Contato
+                Contato
               </Link>
             </nav>
           </div>

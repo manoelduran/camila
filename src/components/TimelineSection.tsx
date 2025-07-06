@@ -8,34 +8,34 @@ const timelineItems = [
     title: "Formação e Revalidação",
     description:
       "Residência Clínica Médica Hospital Universitário Professor Edgard Santos.",
-    image: "/foto2.png",
+    // image: "/foto2.png",
   },
   {
     year: "2019-2021",
     title: "Especialização em Atenção Básica",
     description:
       "Residência Reumatologia Hospital das Clínicas da Universidade de São Paulo (USP-SP).",
-    image: "/foto3.jpg",
+    // image: "/foto3.jpg",
   },
   {
     year: "2021-2024",
     title: "Medicina Interna",
     description: "Doutorado em Ciências do Sistema Musculoesquelético USP-SP.",
-    image: "/foto2.png",
+    // image: "/foto2.png",
   },
   {
     year: "Desde 2023",
     title: "Atuação Profissional",
     description:
       "Professora Adjunta da Escola Bahiana de Medicina e Saúde Pública.",
-    image: "/foto3.jpg",
+    // image: "/foto3.jpg",
   },
   {
     year: "Desde 2021",
     title: "Atuação Profissional",
     description:
       "Investigadora Principal e Subinvestigadora de protocolos de pesquisa clínica na Clínica SER da Bahia.",
-    image: "/foto3.jpg",
+    // image: "/foto3.jpg",
   },
 ];
 
@@ -45,7 +45,7 @@ export function TimelineSection() {
       className="py-12 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-800"
       id="trajectoria"
     >
-      <div className="container px-4 md:px-6">
+      <div className="container  md:px-6 px-6 sm:px-12 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
         <div className="space-y-4 text-center mb-12">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Trajetória Profissional
