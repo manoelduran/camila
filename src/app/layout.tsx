@@ -12,6 +12,20 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Reumatologista em Salvador | Dra. Camila Cendon",
   description: "Reumatologista em Salvador | Dra. Camila Cendon",
+  openGraph: {
+    title: "Reumatologista em Salvador | Dra. Camila Cendon",
+    description: "Especialista em reumatologia atendendo em Salvador - BA.",
+    url: "https://camila-chi.vercel.app",
+    type: "website",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Dra. Camila Cendon",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
