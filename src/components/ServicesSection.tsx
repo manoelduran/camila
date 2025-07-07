@@ -3,33 +3,43 @@ import { Card, CardContent } from "./ui/card";
 const diseases = [
   {
     name: "Lupus Eritematoso Sistêmico",
+    image: "/lupus.jpeg",
   },
   {
     name: "Artrite Reumatoide",
+    image: "/artrite_reumatoide.jpeg",
   },
   {
     name: "Espondilite Anquilosante",
+    image: "/espondilite_anquilosante.jpeg",
   },
   {
     name: "Artrite Psoriasica",
+    image: "/artrite_psoriasica.jpeg",
   },
   {
     name: "Síndrome Sjogren",
+    image: "/sjogren.jpeg",
   },
   {
     name: "Osteoporose",
+    image: "/osteoporose.jpeg",
   },
   {
     name: "Esclerose Sistêmica",
+    image: "/esclerose_sistemica.jpeg",
   },
   {
     name: "Gota",
+    image: "/gota.jpeg",
   },
   {
     name: "Fibromialgia",
+    image: "/fibromialgia.jpeg",
   },
   {
     name: "Vasculites",
+    image: "/vasculites.jpeg",
   },
 ];
 export function ServicesSection() {
@@ -44,11 +54,17 @@ export function ServicesSection() {
 
         <div className="mt-12 flex flex-wrap justify-center gap-6">
           {diseases.map((disease) => (
-            <Card key={disease.name} className="w-full sm:w-[45%] lg:w-[30%]">
-              <CardContent>
-                <p className="text-gray-500 text-center dark:text-gray-400">
-                  {disease.name}
-                </p>
+            <Card
+              key={disease.name}
+              className="relative overflow-hidden w-full sm:w-[45%] lg:w-[30%] h-64"
+              style={{
+                backgroundImage: `url(${disease.image})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            >
+              <CardContent className="absolute bottom-0 rounded-b-lg left-0 w-full p-3 bg-black/60 backdrop-blur-sm">
+                <p className="text-white text-sm font-medium">{disease.name}</p>
               </CardContent>
             </Card>
           ))}
