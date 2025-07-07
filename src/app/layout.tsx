@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://camila-chi.vercel.app/logo.png",
+        url: "https://camila-chi.vercel.app/og-image.png",
         width: 1200,
         height: 630,
         alt: "Dra. Camila Cendon",
