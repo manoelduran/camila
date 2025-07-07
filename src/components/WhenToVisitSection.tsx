@@ -12,40 +12,30 @@ import {
 
 const items = [
   {
-    title:
-      "Dor articular, principalmente pela manhã, com rigidez nas articulações e/ou na coluna",
     text: "Dor articular, principalmente pela manhã, com rigidez nas articulações e/ou na coluna",
   },
   {
-    title: "Inchaço e calor nas articulações",
     text: "Inchaço e calor nas articulações",
   },
   {
-    title: "Lesões de pele que pioram com a exposição ao sol",
     text: "Lesões de pele que pioram com a exposição ao sol",
   },
   {
-    title: "Olhos e boca secos",
     text: "Olhos e boca secos",
   },
   {
-    title: "Fadiga persistente",
     text: "Fadiga persistente",
   },
   {
-    title: "Úlceras orais ou genitais",
     text: "Úlceras orais ou genitais",
   },
   {
-    title: "Tromboses de repetição",
     text: "Tromboses de repetição",
   },
   {
-    title: "Fraturas ósseas por fragilidade",
     text: "Fraturas ósseas por fragilidade",
   },
   {
-    title: "Febre sem causa aparente",
     text: "Febre sem causa aparente",
   },
 ];
@@ -120,11 +110,10 @@ export function WhenToVisitSection() {
               {items.map((item, index) => (
                 <CarouselItem
                   key={index}
-                  className="md:basis-1/2 lg:basis-1/3 px-2"
+                  className="md:basis-1/2 lg:basis-1/3 px-2 py-2"
                 >
-                  <div className="p-6 bg-white rounded-lg shadow-md dark:bg-gray-900 h-full">
-                    <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                    <p className="text-gray-500 dark:text-gray-400">
+                  <div className="p-6 bg-white flex items-center justify-center rounded-lg shadow-md dark:bg-gray-900 h-full">
+                    <p className="text-gray-500 text-center dark:text-gray-400">
                       {item.text}
                     </p>
                   </div>
