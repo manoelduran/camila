@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="py-12 md:py-24 lg:py-32">
+    <section className="py-12 bg-gray-100 md:py-24 lg:py-32">
       <div className="container px-6 sm:px-12 lg:px-24 flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Texto */}
         <div className="flex-1 space-y-4 text-center lg:text-left">

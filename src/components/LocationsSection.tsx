@@ -5,7 +5,7 @@ import Link from "next/link";
 export function LocationsSection() {
   return (
     <section
-      className="py-12 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-800"
+      className="py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800"
       id="atendimentos"
     >
       <div className="px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
@@ -19,9 +19,9 @@ export function LocationsSection() {
           <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-primary/10 p-1 rounded-full">
-                <MapPin className="h-6 w-6 text-[#5d0625]" />
+                <MapPin className="h-6 w-6 text-[#BE5B50]" />
               </div>
-              <h3 className="text-lg text-[#5d0625] font-semibold">
+              <h3 className="text-lg text-[#BE5B50] font-semibold">
                 Presencial Ambulatorial
               </h3>
             </div>
@@ -46,9 +46,9 @@ export function LocationsSection() {
           <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900 self-start">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-primary/10 p-3 rounded-full">
-                <Smartphone className="h-6 w-6 text-[#5d0625]" />
+                <Smartphone className="h-6 w-6 text-[#BE5B50]" />
               </div>
-              <h3 className="text-xl text-[#5d0625] font-semibold">
+              <h3 className="text-xl text-[#BE5B50] font-semibold">
                 Atendimento Online
               </h3>
             </div>
