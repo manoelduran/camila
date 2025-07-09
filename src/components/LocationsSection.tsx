@@ -44,7 +44,7 @@ export function LocationsSection() {
           <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900 self-start">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-primary/10 p-3 rounded-full">
-                <Smartphone className="h-6 w-6 text-primary" />
+                <Smartphone className="h-6 w-6 text-primary " />
               </div>
               <h3 className="text-xl font-semibold">Atendimento Online</h3>
             </div>
@@ -53,7 +53,11 @@ export function LocationsSection() {
               qualidade e atenção do atendimento presencial.
             </p>
             <div className="flex gap-4">
-              <Button variant="outline" asChild>
+              <Button
+                variant="outline"
+                className="bg-[#dea983] text-white hover:bg-[#d49771] transition-colors hover:scale-105"
+                asChild
+              >
                 <Link
                   href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`}
                   target="_blank"

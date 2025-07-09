@@ -75,7 +75,7 @@ export function TimelineSection() {
                   transition={{ duration: 0.5 }}
                 >
                   {/* Ponto na linha */}
-                  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-red-600 z-10 border-4 border-white dark:border-gray-800"></div>
+                  <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-[#dea983] z-10 border-4 border-white dark:border-gray-800"></div>
 
                   {/* Card */}
                   <div
@@ -84,7 +84,7 @@ export function TimelineSection() {
                     }`}
                   >
                     <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6">
-                      <h3 className="text-xl font-bold text-red-600 mb-2">
+                      <h3 className="text-xl font-bold text-[#dea983] mb-2">
                         {item.year}
                       </h3>
                       <h4 className="text-lg font-semibold mb-3">

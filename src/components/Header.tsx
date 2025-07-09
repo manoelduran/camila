@@ -22,32 +22,35 @@ export function Header() {
         <nav className="hidden md:flex items-center gap-6">
           <Link
             href="#sobre"
-            className="text-sm font-medium hover:text-primary"
+            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-primary hover:underline underline-offset-4"
           >
             Sobre
           </Link>
           <Link
             href="#trajectoria"
-            className="text-sm font-medium hover:text-primary"
+            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-primary hover:underline underline-offset-4"
           >
             Trajetória Profissional
           </Link>
           <Link
             href="#servicos"
-            className="text-sm font-medium hover:text-primary"
+            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-primary hover:underline underline-offset-4"
           >
             Atendimentos
           </Link>
           <Link
             href="#atendimentos"
-            className="text-sm font-medium hover:text-primary"
+            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-primary hover:underline underline-offset-4"
           >
             Contato
           </Link>
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild>
+          <Button
+            className="bg-[#dea983] text-white hover:bg-[#d49771] transition-colors hover:scale-105"
+            asChild
+          >
             <Link
               href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`}
               target="_blank"
@@ -55,7 +58,12 @@ export function Header() {
               Agendar Consulta
             </Link>
           </Button>
-          <Button variant="ghost" size="icon" asChild>
+          <Button
+            variant="ghost"
+            size="icon"
+            className="transition-transform hover:scale-150 hover:brightness-110"
+            asChild
+          >
             <Link
               href={
                 process.env.NEXT_PUBLIC_INSTAGRAM_LINK ||
@@ -66,7 +74,12 @@ export function Header() {
               <Instagram className="h-4 w-4" />
             </Link>
           </Button>
-          <Button variant="ghost" size="sm" asChild>
+          <Button
+            variant="ghost"
+            size="sm"
+            className="transition-transform hover:scale-150 hover:brightness-110"
+            asChild
+          >
             <Link
               href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`}
               target="_blank"
