@@ -22,25 +22,25 @@ export function Header() {
         <nav className="hidden md:flex items-center gap-6">
           <Link
             href="#sobre"
-            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-primary hover:underline underline-offset-4"
+            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-[#dea983] hover:underline underline-offset-4"
           >
             Sobre
           </Link>
           <Link
             href="#trajectoria"
-            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-primary hover:underline underline-offset-4"
+            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-[#dea983] hover:underline underline-offset-4"
           >
             Trajetória Profissional
           </Link>
           <Link
             href="#servicos"
-            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-primary hover:underline underline-offset-4"
+            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-[#dea983] hover:underline underline-offset-4"
           >
             Atendimentos
           </Link>
           <Link
             href="#atendimentos"
-            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-primary hover:underline underline-offset-4"
+            className="text-sm font-medium text-muted-foreground transition-all duration-200 hover:text-[#dea983] hover:underline underline-offset-4"
           >
             Contato
           </Link>
@@ -61,7 +61,7 @@ export function Header() {
           <Button
             variant="ghost"
             size="icon"
-            className="transition-transform hover:scale-150 hover:brightness-110"
+            className="transition-transform hover:scale-150 hover:text-[#dea983]"
             asChild
           >
             <Link
@@ -77,7 +77,7 @@ export function Header() {
           <Button
             variant="ghost"
             size="sm"
-            className="transition-transform hover:scale-150 hover:brightness-110"
+            className="transition-transform hover:scale-150 hover:text-[#dea983]"
             asChild
           >
             <Link
