@@ -47,7 +47,7 @@ export function TimelineSection() {
     >
       <div className="container  md:px-6 px-6 sm:px-12 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
         <div className="space-y-4 text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl font-bold text-[#5d0625] tracking-tighter sm:text-4xl md:text-5xl">
             Trajetória Profissional
           </h2>
           <p className="max-w-[700px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -75,7 +75,7 @@ export function TimelineSection() {
                   transition={{ duration: 0.5 }}
                 >
                   {/* Ponto na linha */}
-                  <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-[#dea983] z-10 border-4 border-white dark:border-gray-800"></div>
+                  <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-[#5d0625] z-10 border-4 border-white dark:border-gray-800"></div>
 
                   {/* Card */}
                   <div
@@ -84,10 +84,10 @@ export function TimelineSection() {
                     }`}
                   >
                     <div className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6">
-                      <h3 className="text-xl font-bold text-[#dea983] mb-2">
+                      <h3 className="text-xl font-bold text-[#5d0625] mb-2">
                         {item.year}
                       </h3>
-                      <h4 className="text-lg font-semibold mb-3">
+                      <h4 className="text-lg text-[#5d0625] font-semibold mb-3">
                         {item.title}
                       </h4>
                       <p className="text-gray-600 dark:text-gray-300">

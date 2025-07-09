@@ -10,7 +10,7 @@ export function LocationsSection() {
     >
       <div className="px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
         <div className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl text-[#5d0625] font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Locais de Atendimento
           </h2>
         </div>
@@ -19,9 +19,11 @@ export function LocationsSection() {
           <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-primary/10 p-1 rounded-full">
-                <MapPin className="h-6 w-6 text-primary" />
+                <MapPin className="h-6 w-6 text-[#5d0625]" />
               </div>
-              <h3 className="text-lg font-semibold">Presencial Ambulatorial</h3>
+              <h3 className="text-lg text-[#5d0625] font-semibold">
+                Presencial Ambulatorial
+              </h3>
             </div>
             <p className="text-gray-500 dark:text-gray-400 mb-4">
               Clínica SER da Bahia
@@ -44,9 +46,11 @@ export function LocationsSection() {
           <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900 self-start">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-primary/10 p-3 rounded-full">
-                <Smartphone className="h-6 w-6 text-primary " />
+                <Smartphone className="h-6 w-6 text-[#5d0625]" />
               </div>
-              <h3 className="text-xl font-semibold">Atendimento Online</h3>
+              <h3 className="text-xl text-[#5d0625] font-semibold">
+                Atendimento Online
+              </h3>
             </div>
             <p className="text-gray-500 dark:text-gray-400 mb-4">
               Consultas por telemedicina para todo o Brasil, com a mesma
@@ -55,7 +59,7 @@ export function LocationsSection() {
             <div className="flex gap-4">
               <Button
                 variant="outline"
-                className="bg-[#dea983] text-white hover:bg-[#d49771] transition-colors hover:scale-105"
+                className="bg-[#5d0625] text-white hover:bg-[#6b082a] transition-colors hover:scale-105"
                 asChild
               >
                 <Link

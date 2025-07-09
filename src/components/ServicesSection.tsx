@@ -47,7 +47,7 @@ export function ServicesSection() {
     <section className="py-12 md:py-24 lg:py-32" id="servicos">
       <div className="px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
         <div className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl text-[#5d0625] font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Principais doenças atendidas
           </h2>
         </div>

@@ -6,7 +6,7 @@ export function HeroSection() {
       <div className="container px-6 sm:px-12 lg:px-24 flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Texto */}
         <div className="flex-1 space-y-4 text-center lg:text-left">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h1 className="text-3xl text-[#5d0625] font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Dra. Camila Cendon
           </h1>
           <p className="text-gray-500 dark:text-gray-400">
