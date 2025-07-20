@@ -5,7 +5,7 @@ import Link from "next/link";
 export function LocationsSection() {
   return (
     <section
-      className="py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800"
+      className="py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-800"
       id="atendimentos"
     >
       <div className="px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">

@@ -42,7 +42,7 @@ const timelineItems = [
 export function TimelineSection() {
   return (
     <section
-      className="py-12 md:py-24 lg:py-32 bg-gray-50 dark:bg-gray-800"
+      className="py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-800"
       id="trajectoria"
     >
       <div className="container  md:px-6 px-6 sm:px-12 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
@@ -50,7 +50,7 @@ export function TimelineSection() {
           <h2 className="text-3xl font-bold text-[#5d0625] tracking-tighter sm:text-4xl md:text-5xl">
             Trajetória Profissional
           </h2>
-          <p className="max-w-[700px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="max-w-[700px] mx-auto text-[#8A2D3B] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             Conheça a jornada profissional da Dra. Camila Cendon
           </p>
         </div>
@@ -87,7 +87,7 @@ export function TimelineSection() {
                       <h3 className="text-xl font-bold text-[#5d0625] mb-2">
                         {item.year}
                       </h3>
-                      <h4 className="text-lg text-[#BE5B50] font-semibold mb-3">
+                      <h4 className="text-lg text-[#8A2D3B] font-semibold mb-3">
                         {item.title}
                       </h4>
                       <p className="text-gray-600 dark:text-gray-300">
