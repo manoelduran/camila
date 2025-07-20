@@ -5,27 +5,39 @@ import Link from "next/link";
 export function LocationsSection() {
   return (
     <section
-      className="py-12 md:py-24 lg:py-32 bg-white dark:bg-gray-800"
+      className="py-12 md:py-24 lg:py-32 bg-white  dark:bg-gray-800"
       id="atendimentos"
     >
       <div className="px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
         <div className="space-y-4 text-center">
-          <h2 className="text-3xl text-[#5d0625] font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl text-[#72132E] font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Locais de Atendimento
           </h2>
         </div>
 
         <div className="mt-12 flex flex-col md:flex-row gap-8 items-start">
           <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900">
-            <div className="flex items-center gap-4 mb-4">
+            <div className="flex items-center gap-4 mb-4 ">
               <div className="bg-primary/10 p-1 rounded-full">
-                <MapPin className="h-6 w-6 text-[#BE5B50]" />
+                <MapPin className="h-6 w-6 text-[#C15463]" />
               </div>
-              <h3 className="text-lg text-[#BE5B50] font-semibold">
+              <h3 className="text-lg text-[#C15463] font-semibold">
                 Presencial Ambulatorial
               </h3>
+              <Button
+                variant="outline"
+                className="bg-[#72132E] text-white hover:bg-[#6b082a] transition-colors hover:scale-105"
+                asChild
+              >
+                <Link
+                  href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}`}
+                  target="_blank"
+                >
+                  (71) 3022-9886
+                </Link>
+              </Button>
             </div>
-            <p className="text-gray-500 dark:text-gray-400 mb-4">
+            <p className="text-[#5C4A4A] dark:text-gray-400 mb-4">
               Clínica SER da Bahia
               <br />
               Rua Conde Filho, 117 - Graça, Salvador - BA, 40150-150
@@ -46,20 +58,20 @@ export function LocationsSection() {
           <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900 self-start">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-primary/10 p-3 rounded-full">
-                <Smartphone className="h-6 w-6 text-[#BE5B50]" />
+                <Smartphone className="h-6 w-6 text-[#C15463]" />
               </div>
-              <h3 className="text-xl text-[#BE5B50] font-semibold">
+              <h3 className="text-xl text-[#C15463] font-semibold">
                 Atendimento Online
               </h3>
             </div>
-            <p className="text-gray-500 dark:text-gray-400 mb-4">
+            <p className="text-[#5C4A4A] dark:text-gray-400 mb-4">
               Consultas por telemedicina para todo o Brasil, com a mesma
               qualidade e atenção do atendimento presencial.
             </p>
             <div className="flex gap-4">
               <Button
                 variant="outline"
-                className="bg-[#5d0625] text-white hover:bg-[#6b082a] transition-colors hover:scale-105"
+                className="bg-[#72132E] text-white hover:bg-[#6b082a] transition-colors hover:scale-105"
                 asChild
               >
                 <Link

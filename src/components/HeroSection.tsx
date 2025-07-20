@@ -6,10 +6,13 @@ export function HeroSection() {
       <div className="container px-6 sm:px-12 lg:px-24 flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Texto */}
         <div className="flex-1 space-y-4 text-center lg:text-left">
-          <h1 className="text-3xl text-[#5d0625] font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h1
+            className="text-3xl
+           text-[#72132E] font-bold tracking-tighter sm:text-4xl md:text-5xl"
+          >
             Dra. Camila Cendon
           </h1>
-          <p className="text-[#8A2D3B] dark:text-gray-400">
+          <p className="text-[#5C4A4A] dark:text-gray-400">
             CRM: 30024-BA / RQE 20434
             <br />
             Médica Reumatologista em Salvador
@@ -26,7 +29,7 @@ export function HeroSection() {
         {/* Imagem */}
         <Image
           alt="Dra. Camila Cendon"
-          className="rounded-lg object-cover"
+          className="rounded-lg object-cover border-1 border-[#C2A87C]"
           height={500}
           width={400}
           src="/camila2.jpeg"

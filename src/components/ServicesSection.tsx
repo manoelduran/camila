@@ -44,10 +44,10 @@ const diseases = [
 ];
 export function ServicesSection() {
   return (
-    <section className="py-12 md:py-24 bg-white lg:py-32" id="servicos">
+    <section className="py-12 md:py-24 bg-[#F9F5F4] lg:py-32" id="servicos">
       <div className="px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
         <div className="space-y-4 text-center">
-          <h2 className="text-3xl text-[#5d0625] font-bold tracking-tighter sm:text-4xl md:text-5xl">
+          <h2 className="text-3xl text-[#72132E] font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Principais doenças atendidas
           </h2>
         </div>
@@ -56,7 +56,7 @@ export function ServicesSection() {
           {diseases.map((disease) => (
             <Card
               key={disease.name}
-              className="relative overflow-hidden w-full sm:w-[45%] lg:w-[30%] h-64"
+              className="relative overflow-hidden border-gray-100 w-full sm:w-[45%] lg:w-[30%] h-64"
               style={{
                 backgroundImage: `url(${disease.image})`,
                 backgroundSize: "cover",
