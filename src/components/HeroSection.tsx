@@ -17,9 +17,13 @@ export function HeroSection() {
             <br />
             Médica Reumatologista em Salvador
           </p>
-          <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Sou médica especialista em Clínica Médica e Reumatologia
-          </p>
+          {/* <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            Sou médica especialista em Clínica Médica e Reumatologia, me dedico
+            a promover saúde para os pacientes com afecções reumatológicas
+            através de uma consulta minuciosa e detalhada, valorizando um
+            atendimento humanizado, de forma a proporcionar o melhor tratamento
+            e seguimento para o meu paciente.
+          </p> */}
         </div>
 
         {/* Imagem */}
