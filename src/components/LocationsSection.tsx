@@ -17,16 +17,18 @@ export function LocationsSection() {
 
         <div className="mt-12 flex flex-col md:flex-row gap-8 items-start">
           <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900">
-            <div className="flex items-center gap-4 mb-4 ">
-              <div className="bg-primary/10 p-1 rounded-full">
-                <MapPin className="h-6 w-6 text-[#C15463]" />
+            <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-4">
+              <div className="flex items-center gap-4">
+                <div className="bg-primary/10 p-1 rounded-full">
+                  <MapPin className="h-6 w-6 text-[#C15463]" />
+                </div>
+                <h3 className="text-lg text-[#C15463] font-semibold">
+                  Presencial Ambulatorial
+                </h3>
               </div>
-              <h3 className="text-lg text-[#C15463] font-semibold">
-                Presencial Ambulatorial
-              </h3>
               <Button
                 variant="outline"
-                className="bg-[#72132E] text-white hover:bg-[#6b082a] transition-colors hover:scale-105"
+                className="bg-[#72132E] text-white hover:bg-[#6b082a] transition-colors hover:scale-105 w-full md:w-auto"
                 asChild
               >
                 <Link

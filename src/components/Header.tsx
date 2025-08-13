@@ -7,7 +7,7 @@ import { Button } from "./ui/button";
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-b-[#F9F5F4] bg-[#F9F5F4] backdrop-blur supports-[backdrop-filter]:bg-[#F9F5F4]/60">
-      <div className="flex h-14 items-center justify-between px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48">
+      <div className="flex h-14 items-center justify-between px-6 gap-2 sm:gap-4 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48">
         <div className="flex items-center">
           <Link href="/">
             <Image
@@ -48,7 +48,8 @@ export function Header() {
 
         <div className="flex items-center gap-4">
           <Button
-            className="bg-[#72132E] text-white hover:bg-[#6b082a] transition-colors hover:scale-105"
+            className="bg-[#72132E] text-white hover:bg-[#6b082a] transition-colors hover:scale-105
+             text-xs px-2 py-1 sm:text-sm sm:px-3 sm:py-1.5 md:text-base md:px-4 md:py-2"
             asChild
           >
             <Link
