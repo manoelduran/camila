@@ -17,13 +17,20 @@ export function HeroSection() {
             <br />
             Médica Reumatologista em Salvador
           </p>
-          {/* <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-            Sou médica especialista em Clínica Médica e Reumatologia, me dedico
-            a promover saúde para os pacientes com afecções reumatológicas
-            através de uma consulta minuciosa e detalhada, valorizando um
-            atendimento humanizado, de forma a proporcionar o melhor tratamento
-            e seguimento para o meu paciente.
-          </p> */}
+          <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            Sou médica reumatologista, com foco no diagnóstico, tratamento e
+            acompanhamento de doenças autoimunes. Atuo em consultório,
+            oferecendo uma abordagem humanizada e individualizada, voltada para
+            o cuidado integral de cada paciente. Além da prática clínica, sou
+            professora da Escola Bahiana de Medicina, onde contribuo para a
+            formação de novos profissionais com base em uma prática médica
+            ética, empática e fundamentada em evidências científicas. Além
+            disso, participo de pesquisas clínicas na área da reumatologia,
+            buscando continuamente o aprimoramento dos conhecimentos e
+            tratamentos disponíveis. Meu compromisso é oferecer um atendimento
+            de excelência, unindo ciência, experiência e atenção às necessidades
+            de cada paciente.
+          </p>
         </div>
 
         {/* Imagem */}
@@ -32,7 +39,7 @@ export function HeroSection() {
           className="rounded-lg object-cover border-1 border-[#C2A87C]"
           height={500}
           width={400}
-          src="/camila2.jpeg"
+          src="/camila_duran.jpeg"
         />
       </div>
     </section>
