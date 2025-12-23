@@ -8,7 +8,7 @@ export function RheumatologySection() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             O que é a Reumatologia?
           </h2>
-          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             A Reumatologia é a especialidade médica que estuda, diagnostica e
             trata diversas doenças que afetam o sistema musculoesquelético e o
             tecido conjuntivo, encontrado nos órgãos e estruturas do nosso corpo

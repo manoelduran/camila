@@ -41,23 +41,20 @@ const timelineItems = [
 
 export function TimelineSection() {
   return (
-    <section
-      className="py-12 md:py-24 lg:py-32 bg-[#F9F5F4] dark:bg-gray-800"
-      id="trajectoria"
-    >
+    <section className="py-12 md:py-24 lg:py-32 bg-[#F9F5F4]" id="trajectoria">
       <div className="container  md:px-6 px-6 sm:px-12 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
         <div className="space-y-4 text-center mb-12">
           <h2 className="text-3xl font-bold text-[#72132E] tracking-tighter sm:text-4xl md:text-5xl">
             Trajetória Profissional
           </h2>
-          <p className="max-w-[700px] mx-auto text-[#8A2D3B] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="max-w-[700px] mx-auto text-[#8A2D3B] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Conheça a jornada profissional da Dra. Camila Cendon
           </p>
         </div>
 
         <div className="relative">
           {/* Linha vertical central */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-200 dark:bg-gray-700 -translate-x-1/2"></div>
+          <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gray-200 -translate-x-1/2"></div>
 
           {/* Itens da Timeline */}
           <div className="space-y-12">
@@ -75,7 +72,7 @@ export function TimelineSection() {
                   transition={{ duration: 0.5 }}
                 >
                   {/* Ponto na linha */}
-                  <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-[#8A2D3B] z-10 border-4 border-white dark:border-gray-800"></div>
+                  <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-[#8A2D3B] z-10 border-4 border-white"></div>
 
                   {/* Card */}
                   <div
@@ -83,16 +80,14 @@ export function TimelineSection() {
                       isEven ? "md:pr-8" : "md:pl-8"
                     }`}
                   >
-                    <div className="bg-white border-1 border-gray-100 dark:bg-gray-900 rounded-lg shadow-lg p-6">
+                    <div className="bg-white border-1 border-gray-100 rounded-lg shadow-lg p-6">
                       <h3 className="text-xl font-bold text-[#72132E] mb-2">
                         {item.year}
                       </h3>
                       <h4 className="text-lg text-[#8A2D3B] font-semibold mb-3">
                         {item.title}
                       </h4>
-                      <p className="text-[#5C4A4A] dark:text-gray-300">
-                        {item.description}
-                      </p>
+                      <p className="text-[#5C4A4A]">{item.description}</p>
                     </div>
                   </div>
 

@@ -12,12 +12,12 @@ export function HeroSection() {
           >
             Dra. Camila Cendon
           </h1>
-          <p className="text-[#5C4A4A] dark:text-gray-400">
+          <p className="text-[#5C4A4A]">
             CRM: 30024-BA / RQE 20434
             <br />
             Médica Reumatologista em Salvador
           </p>
-          <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Sou médica reumatologista, com foco no diagnóstico, tratamento e
             acompanhamento de doenças autoimunes. Atuo em consultório,
             oferecendo uma abordagem humanizada e individualizada, voltada para

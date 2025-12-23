@@ -4,10 +4,7 @@ import Link from "next/link";
 
 export function LocationsSection() {
   return (
-    <section
-      className="py-12 md:py-24 lg:py-32 bg-white  dark:bg-gray-800"
-      id="atendimentos"
-    >
+    <section className="py-12 md:py-24 lg:py-32 bg-white" id="atendimentos">
       <div className="px-6 sm:px-12 md:px-16 lg:px-24 xl:px-32 2xl:px-48 max-w-screen-xl mx-auto">
         <div className="space-y-4 text-center">
           <h2 className="text-3xl text-[#72132E] font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -16,7 +13,7 @@ export function LocationsSection() {
         </div>
 
         <div className="mt-12 flex flex-col md:flex-row gap-8 items-start">
-          <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900">
+          <div className="flex-1 bg-white p-6 rounded-lg shadow-md">
             <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mb-4">
               <div className="flex items-center gap-4">
                 <div className="bg-primary/10 p-1 rounded-full">
@@ -39,7 +36,7 @@ export function LocationsSection() {
                 </Link>
               </Button>
             </div>
-            <p className="text-[#5C4A4A] dark:text-gray-400 mb-4">
+            <p className="text-[#5C4A4A] mb-4">
               Clínica SER da Bahia
               <br />
               Rua Conde Filho, 117 - Graça, Salvador - BA, 40150-150
@@ -57,7 +54,7 @@ export function LocationsSection() {
             </div>
           </div>
 
-          <div className="flex-1 bg-white p-6 rounded-lg shadow-md dark:bg-gray-900 self-start">
+          <div className="flex-1 bg-white p-6 rounded-lg shadow-md self-start">
             <div className="flex items-center gap-4 mb-4">
               <div className="bg-primary/10 p-3 rounded-full">
                 <Smartphone className="h-6 w-6 text-[#C15463]" />
@@ -66,7 +63,7 @@ export function LocationsSection() {
                 Atendimento Online
               </h3>
             </div>
-            <p className="text-[#5C4A4A] dark:text-gray-400 mb-4">
+            <p className="text-[#5C4A4A] mb-4">
               Consultas por telemedicina para todo o Brasil, com a mesma
               qualidade e atenção do atendimento presencial.
             </p>
