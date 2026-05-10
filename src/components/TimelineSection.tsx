@@ -80,7 +80,7 @@ export function TimelineSection() {
                       isEven ? "md:pr-8" : "md:pl-8"
                     }`}
                   >
-                    <div className="bg-white border-1 border-gray-100 rounded-lg shadow-lg p-6">
+                    <div className="bg-white border-1 border-gray-100 rounded-lg shadow-lg p-6 text-center">
                       <h3 className="text-xl font-bold text-[#72132E] mb-2">
                         {item.year}
                       </h3>

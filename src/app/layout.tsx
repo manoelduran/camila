@@ -13,18 +13,20 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Reumatologista em Salvador | Dra. Camila Cendon",
-  description: "Reumatologista em Salvador | Dra. Camila Cendon",
+  description:
+    "Dra. Camila Cendon é médica reumatologista em Salvador - BA, especialista no diagnóstico e tratamento de doenças autoimunes como lúpus, artrite reumatoide, fibromialgia e osteoporose. Agende sua consulta.",
   openGraph: {
     title: "Reumatologista em Salvador | Dra. Camila Cendon",
-    description: "Especialista em reumatologia atendendo em Salvador - BA.",
-    url: "https://camila-chi.vercel.app",
+    description:
+      "Dra. Camila Cendon é médica reumatologista em Salvador - BA, especialista no diagnóstico e tratamento de doenças autoimunes como lúpus, artrite reumatoide, fibromialgia e osteoporose. Agende sua consulta.",
+    url: "https://www.dracamilacendon.com.br",
     type: "website",
     images: [
       {
-        url: "https://camila-chi.vercel.app/og.png",
-        width: 200,
-        height: 100,
-        alt: "Dra. Camila Cendon",
+        url: "https://www.dracamilacendon.com.br/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Dra. Camila Cendon - Reumatologista em Salvador",
       },
     ],
   },
@@ -36,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         {GA_MEASUREMENT_ID && (
           <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />

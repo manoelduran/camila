@@ -29,7 +29,7 @@ export function HeroSection() {
             <br />
             Médica Reumatologista em Salvador
           </p>
-          <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify">
             Sou médica reumatologista, com foco no diagnóstico, tratamento e
             acompanhamento de doenças autoimunes. Atuo em consultório,
             oferecendo uma abordagem humanizada e individualizada, voltada para
