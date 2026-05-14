@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   title: "Reumatologista em Salvador | Dra. Camila Cendon",
   description:
     "Dra. Camila Cendon é médica reumatologista em Salvador - BA, especialista no diagnóstico e tratamento de doenças autoimunes como lúpus, artrite reumatoide, fibromialgia e osteoporose. Agende sua consulta.",
+  metadataBase: new URL("https://www.dracamilacendon.com.br"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Reumatologista em Salvador | Dra. Camila Cendon",
     description:
