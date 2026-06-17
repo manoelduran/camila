@@ -10,7 +10,7 @@ export function HeroSection() {
   // Rastreia quando a seção hero entra na viewport
   useIntersectionObserver(
     sectionRef as React.RefObject<HTMLDivElement>,
-    "hero_section"
+    "hero_section",
   );
 
   return (
