@@ -1,8 +1,20 @@
+"use client";
+
 import Image from "next/image";
+import { useRef } from "react";
+import { useIntersectionObserver } from "@/hooks/useGoogleAnalytics";
 
 export function HeroSection() {
+  const sectionRef = useRef<HTMLDivElement>(null);
+
+  // Rastreia quando a seção hero entra na viewport
+  useIntersectionObserver(
+    sectionRef as React.RefObject<HTMLDivElement>,
+    "hero_section"
+  );
+
   return (
-    <section className="py-12 bg-white md:py-24 lg:py-32">
+    <section ref={sectionRef} className="py-12 bg-white md:py-24 lg:py-32">
       <div className="container px-6 sm:px-12 lg:px-24 flex flex-col lg:flex-row items-center justify-between gap-10">
         {/* Texto */}
         <div className="flex-1 space-y-4 text-center lg:text-left">
@@ -17,7 +29,7 @@ export function HeroSection() {
             <br />
             Médica Reumatologista em Salvador
           </p>
-          <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+          <p className="max-w-[600px] mx-auto lg:mx-0 text-[#5C4A4A] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-justify">
             Sou médica reumatologista, com foco no diagnóstico, tratamento e
             acompanhamento de doenças autoimunes. Atuo em consultório,
             oferecendo uma abordagem humanizada e individualizada, voltada para
