@@ -43,7 +43,7 @@ export function Footer() {
               <Link
                 href={
                   process.env.NEXT_PUBLIC_INSTAGRAM_LINK ||
-                  "https://www.instagram.com/dracamilacendon.reumatologia/"
+                  "https://www.instagram.com/dracamilacendon/"
                 }
                 className="text-white hover:text-black"
                 target="_blank"
