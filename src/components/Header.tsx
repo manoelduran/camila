@@ -98,7 +98,7 @@ export function Header() {
               <Link
                 href={
                   process.env.NEXT_PUBLIC_INSTAGRAM_LINK ||
-                  "https://www.instagram.com/dracamilacendon.reumatologia/"
+                  "https://www.instagram.com/dracamilacendon/"
                 }
                 target="_blank"
               >
